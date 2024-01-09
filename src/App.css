@@ -23,12 +23,56 @@
   border-radius: 10px;
 }
 
+.task-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.task-show{
+  border: 1px solid green;
+  border-radius: 30px;
+  width: 350px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.task-title{
+  margin-bottom: 5px;
+}
+
 .task-button{
   border: 1px solid green;
-  margin: 10px 0px;
+  margin: 10px 0;
   padding: 10px;
   background-color: green;
   color: white;
   border-radius: 10px;
   font-size: 20px;
 }
+
+.task-edit{
+  padding: 5px;
+  font-size: 15px;
+  width: 100px;
+  border: none;
+  border-radius: 30px;
+  background-color: yellowgreen;
+  color: white;
+  margin-right: 10px;
+}
+
+.task-delete{
+  padding: 5px;
+  font-size: 15px;
+  width: 60px;
+  border: none;
+  border-radius: 30px;
+  background-color: red;
+  color: white;
+  margin-right: 10px;
+}
+
+
