@@ -32,16 +32,21 @@ Proje klonlandıktan veya indirildikten sonra, aşağıdaki adımları izleyerek
     npm start
     ```
 
-6. Tarayıcınızda `http://localhost:3000` adresine giderek uygulamayı görebilirsiniz. / You can view the application by going to `http://localhost:3000` in your browser.
+6. Tarayıcınızda `http://localhost:3000` adresine giderek uygulamayı görebilirsiniz.
+   / You can view the application by going to `http://localhost:3000` in your browser.
 
 ## JSON Server Kullanımı / JSON Server Usage
 
-Bu projede, JSON Server'ı kullanarak basit bir API simülasyonu sağlanmaktadır. JSON Server, `db.json` dosyasını temel alarak bir RESTful API sunar. Bu dosya içerisindeki verileri okuyabilir, yazabilir, güncelleyebilir ve silebilirsiniz. JSON Server başlatıldığında, `http://localhost:3004` adresine bir API sunucusu başlatılır. / This project provides a simple API simulation using JSON Server. JSON Server offers a RESTful API based on the `db.json` file. You can read, write, update, and delete data in this file. When the JSON Server is started, an API server is launched at `http://localhost:3004`.
+Bu projede, JSON Server'ı kullanarak basit bir API simülasyonu sağlanmaktadır. JSON Server, `db.json` dosyasını temel alarak bir RESTful API sunar. Bu dosya içerisindeki verileri okuyabilir, yazabilir, güncelleyebilir ve silebilirsiniz. JSON Server başlatıldığında, `http://localhost:3004` adresine bir API sunucusu başlatılır. 
+/ This project provides a simple API simulation using JSON Server. JSON Server offers a RESTful API based on the `db.json` file. You can read, write, update, and delete data in this file. When the JSON Server is started, an API server is launched at `http://localhost:3004`.
 
-Örneğin, `http://localhost:3004/posts` adresine HTTP GET isteği göndererek tüm "posts" kayıtlarını alabilirsiniz. / For example, you can send an HTTP GET request to `http://localhost:3004/posts` to retrieve all "posts" records.
+Örneğin, `http://localhost:3004/posts` adresine HTTP GET isteği göndererek tüm "posts" kayıtlarını alabilirsiniz. 
+/ For example, you can send an HTTP GET request to `http://localhost:3004/posts` to retrieve all "posts" records.
 
-Daha fazla bilgi için JSON Server belgelerine başvurabilirsiniz: [JSON Server Belgesi](https://github.com/typicode/json-server) / For more information, refer to the JSON Server documentation: [JSON Server Documentation](https://github.com/typicode/json-server)
+Daha fazla bilgi için JSON Server belgelerine başvurabilirsiniz: [JSON Server Belgesi](https://github.com/typicode/json-server) 
+/ For more information, refer to the JSON Server documentation: [JSON Server Documentation](https://github.com/typicode/json-server)
 
 ## Katkılar / Contributions
 
-Katkılarınızı bekliyoruz! Eğer bir hata bulursanız veya herhangi bir öneriniz varsa, lütfen bir issue açın veya bir pull request gönderin. / Contributions are welcome! If you find a bug or have any suggestions, please open an issue or submit a pull request.
+Katkılarınızı bekliyoruz! Eğer bir hata bulursanız veya herhangi bir öneriniz varsa, lütfen bir issue açın veya bir pull request gönderin. 
+/ Contributions are welcome! If you find a bug or have any suggestions, please open an issue or submit a pull request.
